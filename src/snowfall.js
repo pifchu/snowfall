@@ -16,8 +16,8 @@ var Snowfall = (function () {
         this.angle = Math.random() * Math.PI * 2;
 
         this.fall = function () {
-            this.x += Math.sin(this.angle) * 0.3;
-            this.y += Math.pow(this.weight, 2) + 0.5;
+            this.x += Math.sin(this.angle) * 0.1;
+            this.y += Math.pow(this.weight, 2) + 0.3;
             this.angle += 0.01;
             if (this.angle >= Math.PI * 2) {
                 this.angle = 0;
