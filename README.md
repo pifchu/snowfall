@@ -4,8 +4,6 @@ Simple snowfall implementation written in pure Javascript
 ```
 <script src="snowfall.js"></script>
 <script>
-    window.onload = function () {
-        Snowfall.start();
-    }
+    Snowfall.start({color: "white", snowflakesNumber: 500});
 </script>
 ```
